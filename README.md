@@ -12,7 +12,7 @@ echo $(whoami)
 Open Terminal on PC, and run these commands
 ```bash
 ssh $(whoami)@ip -p 8022
-curl -fSSL https://github.com/MahanthMohan/GopherChat/raw/master/battery
+curl -fSSL https://github.com/MahanthMohan/GopherChat/raw/master/battery -o battery
 ./battery | termux-toast && ./battery | termux-tts-speak -l english -p 1.0
 ```
 ## Results
